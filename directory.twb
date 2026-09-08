@@ -1,0 +1,1721 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0708.1337                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='d504b8adbd8b630bb07e8c67198f2e1efd6cf43fcbfc16e30f36c7b026aa4671' _.fcp.WorkbookFingerprinting.true...creator-author-id='d504b8adbd8b630bb07e8c67198f2e1efd6cf43fcbfc16e30f36c7b026aa4671' _.fcp.WorkbookFingerprinting.true...creator-license-type='public' _.fcp.WorkbookFingerprinting.true...creator-machine-id='d504b8adbd8b630bb07e8c67198f2e1efd6cf43fcbfc16e30f36c7b026aa4671' _.fcp.WorkbookFingerprinting.true...license-type='public' _.fcp.WorkbookFingerprinting.true...machine-id='d504b8adbd8b630bb07e8c67198f2e1efd6cf43fcbfc16e30f36c7b026aa4671' original-version='18.1' source-build='2026.2.1 (20262.26.0708.1337)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <Heatmap />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='directory' inline='true' name='federated.1jbbw4j0r8z0mk1bkjxf40f23gyc' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='directory' name='textscan.1fbyokv13de7oc1aclae30pv4qqr'>
+            <connection class='textscan' directory='D:/Data_Analytics/Tableau' filename='directory.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1fbyokv13de7oc1aclae30pv4qqr' name='directory.csv' table='[directory#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='uk_UA' separator=',' text-qualifier='&quot;'>
+            <column datatype='string' name='Brand' ordinal='0' />
+            <column datatype='string' name='Store Number' ordinal='1' />
+            <column datatype='string' name='Store Name' ordinal='2' />
+            <column datatype='string' name='Ownership Type' ordinal='3' />
+            <column datatype='string' name='Street Address' ordinal='4' />
+            <column datatype='string' name='City' ordinal='5' />
+            <column datatype='string' name='State/Province' ordinal='6' />
+            <column datatype='string' name='Country' ordinal='7' />
+            <column datatype='string' name='Postcode' ordinal='8' />
+            <column datatype='string' name='Phone Number' ordinal='9' />
+            <column datatype='string' name='Timezone' ordinal='10' />
+            <column datatype='real' name='Longitude' ordinal='11' />
+            <column datatype='real' name='Latitude' ordinal='12' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[directory.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;uk&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₴&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='exponent-char'>&quot;е&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;uk_UA&quot;</attribute>
+              <attribute datatype='string' name='quote-char'>&quot;\&quot;&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot; &quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Brand</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Brand]</local-name>
+            <parent-name>[directory.csv]</parent-name>
+            <remote-alias>Brand</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LUK_RUA' />
+            <object-id>[directory.csv_09496281E4DF4600ADB49AAA40A3DFD3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Store Number</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Store Number]</local-name>
+            <parent-name>[directory.csv]</parent-name>
+            <remote-alias>Store Number</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LUK_RUA' />
+            <object-id>[directory.csv_09496281E4DF4600ADB49AAA40A3DFD3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Store Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Store Name]</local-name>
+            <parent-name>[directory.csv]</parent-name>
+            <remote-alias>Store Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LUK_RUA' />
+            <object-id>[directory.csv_09496281E4DF4600ADB49AAA40A3DFD3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ownership Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Ownership Type]</local-name>
+            <parent-name>[directory.csv]</parent-name>
+            <remote-alias>Ownership Type</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LUK_RUA' />
+            <object-id>[directory.csv_09496281E4DF4600ADB49AAA40A3DFD3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Street Address</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Street Address]</local-name>
+            <parent-name>[directory.csv]</parent-name>
+            <remote-alias>Street Address</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LUK_RUA' />
+            <object-id>[directory.csv_09496281E4DF4600ADB49AAA40A3DFD3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[directory.csv]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LUK_RUA' />
+            <object-id>[directory.csv_09496281E4DF4600ADB49AAA40A3DFD3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State/Province</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State/Province]</local-name>
+            <parent-name>[directory.csv]</parent-name>
+            <remote-alias>State/Province</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LUK_RUA' />
+            <object-id>[directory.csv_09496281E4DF4600ADB49AAA40A3DFD3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[directory.csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LUK_RUA' />
+            <object-id>[directory.csv_09496281E4DF4600ADB49AAA40A3DFD3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Postcode</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Postcode]</local-name>
+            <parent-name>[directory.csv]</parent-name>
+            <remote-alias>Postcode</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LUK_RUA' />
+            <object-id>[directory.csv_09496281E4DF4600ADB49AAA40A3DFD3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Phone Number</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Phone Number]</local-name>
+            <parent-name>[directory.csv]</parent-name>
+            <remote-alias>Phone Number</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LUK_RUA' />
+            <object-id>[directory.csv_09496281E4DF4600ADB49AAA40A3DFD3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Timezone</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Timezone]</local-name>
+            <parent-name>[directory.csv]</parent-name>
+            <remote-alias>Timezone</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LUK_RUA' />
+            <object-id>[directory.csv_09496281E4DF4600ADB49AAA40A3DFD3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Longitude]</local-name>
+            <parent-name>[directory.csv]</parent-name>
+            <remote-alias>Longitude</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[directory.csv_09496281E4DF4600ADB49AAA40A3DFD3]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Latitude]</local-name>
+            <parent-name>[directory.csv]</parent-name>
+            <remote-alias>Latitude</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[directory.csv_09496281E4DF4600ADB49AAA40A3DFD3]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column aggregation='Avg' datatype='real' name='[Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column datatype='string' name='[Postcode]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
+      <column datatype='string' name='[State/Province]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='directory.csv' datatype='table' name='[__tableau_internal_object_id__].[directory.csv_09496281E4DF4600ADB49AAA40A3DFD3]' role='measure' type='quantitative' />
+      <drill-paths>
+        <drill-path name='Province,Country,Postcode,Phone Number,Timezone,Longitude,Latitude, Brand,Store Number,Store Name,Ownership Type,Street Address,City,State' />
+      </drill-paths>
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_GB' class='hyper' dbname='C:/Users/User/AppData/Local/Temp/TableauTemp/#TableauTemp_0dwn9k20jyauj8134pyd00jqt45a.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='08/25/2026 12:33:26 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Brand</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Brand]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Brand</remote-alias>
+              <ordinal>0</ordinal>
+              <family>directory.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LUK_RUA' />
+              <object-id>[directory.csv_09496281E4DF4600ADB49AAA40A3DFD3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Store Number</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Store Number]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Store Number</remote-alias>
+              <ordinal>1</ordinal>
+              <family>directory.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>25600</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LUK_RUA' />
+              <object-id>[directory.csv_09496281E4DF4600ADB49AAA40A3DFD3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Store Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Store Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Store Name</remote-alias>
+              <ordinal>2</ordinal>
+              <family>directory.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>24324</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LUK_RUA' />
+              <object-id>[directory.csv_09496281E4DF4600ADB49AAA40A3DFD3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Ownership Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Ownership Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Ownership Type</remote-alias>
+              <ordinal>3</ordinal>
+              <family>directory.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LUK_RUA' />
+              <object-id>[directory.csv_09496281E4DF4600ADB49AAA40A3DFD3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Street Address</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Street Address]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Street Address</remote-alias>
+              <ordinal>4</ordinal>
+              <family>directory.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>25600</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LUK_RUA' />
+              <object-id>[directory.csv_09496281E4DF4600ADB49AAA40A3DFD3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>City</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[City]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>City</remote-alias>
+              <ordinal>5</ordinal>
+              <family>directory.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2982</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LUK_RUA' />
+              <object-id>[directory.csv_09496281E4DF4600ADB49AAA40A3DFD3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>State/Province</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[State/Province]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>State/Province</remote-alias>
+              <ordinal>6</ordinal>
+              <family>directory.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>354</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LUK_RUA' />
+              <object-id>[directory.csv_09496281E4DF4600ADB49AAA40A3DFD3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Country</remote-alias>
+              <ordinal>7</ordinal>
+              <family>directory.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>101</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LUK_RUA' />
+              <object-id>[directory.csv_09496281E4DF4600ADB49AAA40A3DFD3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Postcode</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Postcode]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Postcode</remote-alias>
+              <ordinal>8</ordinal>
+              <family>directory.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9569</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LUK_RUA' />
+              <object-id>[directory.csv_09496281E4DF4600ADB49AAA40A3DFD3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Phone Number</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Phone Number]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Phone Number</remote-alias>
+              <ordinal>9</ordinal>
+              <family>directory.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>20747</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LUK_RUA' />
+              <object-id>[directory.csv_09496281E4DF4600ADB49AAA40A3DFD3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Timezone</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Timezone]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Timezone</remote-alias>
+              <ordinal>10</ordinal>
+              <family>directory.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>137</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LUK_RUA' />
+              <object-id>[directory.csv_09496281E4DF4600ADB49AAA40A3DFD3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Longitude</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Longitude]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Longitude</remote-alias>
+              <ordinal>11</ordinal>
+              <family>directory.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5085</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[directory.csv_09496281E4DF4600ADB49AAA40A3DFD3]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Latitude</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Latitude]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Latitude</remote-alias>
+              <ordinal>12</ordinal>
+              <family>directory.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3786</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[directory.csv_09496281E4DF4600ADB49AAA40A3DFD3]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Ukraine&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='directory.csv' id='directory.csv_09496281E4DF4600ADB49AAA40A3DFD3'>
+            <properties context=''>
+              <relation connection='textscan.1fbyokv13de7oc1aclae30pv4qqr' name='directory.csv' table='[directory#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='uk_UA' separator=',' text-qualifier='&quot;'>
+                  <column datatype='string' name='Brand' ordinal='0' />
+                  <column datatype='string' name='Store Number' ordinal='1' />
+                  <column datatype='string' name='Store Name' ordinal='2' />
+                  <column datatype='string' name='Ownership Type' ordinal='3' />
+                  <column datatype='string' name='Street Address' ordinal='4' />
+                  <column datatype='string' name='City' ordinal='5' />
+                  <column datatype='string' name='State/Province' ordinal='6' />
+                  <column datatype='string' name='Country' ordinal='7' />
+                  <column datatype='string' name='Postcode' ordinal='8' />
+                  <column datatype='string' name='Phone Number' ordinal='9' />
+                  <column datatype='string' name='Timezone' ordinal='10' />
+                  <column datatype='real' name='Longitude' ordinal='11' />
+                  <column datatype='real' name='Latitude' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='vgsales' inline='true' name='federated.0dcy8rq12z5jri16m7qbc04ti2rt' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='vgsales' name='textscan.1s6r1w11cffmmg12cblhh08x88rs'>
+            <connection class='textscan' directory='D:/Data_Analytics/Tableau' filename='vgsales.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1s6r1w11cffmmg12cblhh08x88rs' name='vgsales.csv' table='[vgsales#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='uk_UA'>
+            <column datatype='integer' name='Rank' ordinal='0' />
+            <column datatype='string' name='Name' ordinal='1' />
+            <column datatype='string' name='Platform' ordinal='2' />
+            <column datatype='integer' name='Year' ordinal='3' />
+            <column datatype='string' name='Genre' ordinal='4' />
+            <column datatype='string' name='Publisher' ordinal='5' />
+            <column datatype='real' name='NA_Sales' ordinal='6' />
+            <column datatype='real' name='EU_Sales' ordinal='7' />
+            <column datatype='real' name='JP_Sales' ordinal='8' />
+            <column datatype='real' name='Other_Sales' ordinal='9' />
+            <column datatype='real' name='Global_Sales' ordinal='10' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[vgsales.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;uk&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₴&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='exponent-char'>&quot;е&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;uk_UA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot; &quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rank]</local-name>
+            <parent-name>[vgsales.csv]</parent-name>
+            <remote-alias>Rank</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[vgsales.csv_A9005DFFD0F8481F9C35A6716D94E259]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[vgsales.csv]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LUK_RUA' />
+            <object-id>[vgsales.csv_A9005DFFD0F8481F9C35A6716D94E259]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Platform</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Platform]</local-name>
+            <parent-name>[vgsales.csv]</parent-name>
+            <remote-alias>Platform</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LUK_RUA' />
+            <object-id>[vgsales.csv_A9005DFFD0F8481F9C35A6716D94E259]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[vgsales.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[vgsales.csv_A9005DFFD0F8481F9C35A6716D94E259]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Genre</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Genre]</local-name>
+            <parent-name>[vgsales.csv]</parent-name>
+            <remote-alias>Genre</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LUK_RUA' />
+            <object-id>[vgsales.csv_A9005DFFD0F8481F9C35A6716D94E259]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Publisher</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Publisher]</local-name>
+            <parent-name>[vgsales.csv]</parent-name>
+            <remote-alias>Publisher</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LUK_RUA' />
+            <object-id>[vgsales.csv_A9005DFFD0F8481F9C35A6716D94E259]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NA_Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NA_Sales]</local-name>
+            <parent-name>[vgsales.csv]</parent-name>
+            <remote-alias>NA_Sales</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[vgsales.csv_A9005DFFD0F8481F9C35A6716D94E259]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EU_Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[EU_Sales]</local-name>
+            <parent-name>[vgsales.csv]</parent-name>
+            <remote-alias>EU_Sales</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[vgsales.csv_A9005DFFD0F8481F9C35A6716D94E259]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JP_Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[JP_Sales]</local-name>
+            <parent-name>[vgsales.csv]</parent-name>
+            <remote-alias>JP_Sales</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[vgsales.csv_A9005DFFD0F8481F9C35A6716D94E259]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other_Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Other_Sales]</local-name>
+            <parent-name>[vgsales.csv]</parent-name>
+            <remote-alias>Other_Sales</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[vgsales.csv_A9005DFFD0F8481F9C35A6716D94E259]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Global_Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Global_Sales]</local-name>
+            <parent-name>[vgsales.csv]</parent-name>
+            <remote-alias>Global_Sales</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[vgsales.csv_A9005DFFD0F8481F9C35A6716D94E259]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Percentage of global sales' datatype='real' default-format='p0.00%' name='[Calculation1]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Global_Sales]) / TOTAL(SUM([Global_Sales]))'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Global Sales-EU sales' datatype='real' name='[Calculation_0196575685324800]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Global_Sales]-[EU_Sales]' />
+      </column>
+      <column datatype='real' name='[Global_Sales]' role='measure' type='quantitative' />
+      <column datatype='real' name='[NA_Sales]' role='measure' type='quantitative' />
+      <column aggregation='None' caption='Year (bin)' datatype='integer' name='[Year (bin)]' role='dimension' type='ordinal'>
+        <calculation class='bin' decimals='0' formula='[Year]' peg='0' size='5' />
+      </column>
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <column caption='vgsales.csv' datatype='table' name='[__tableau_internal_object_id__].[vgsales.csv_A9005DFFD0F8481F9C35A6716D94E259]' role='measure' type='quantitative' />
+      <column-instance column='[Global_Sales]' derivation='Sum' name='[sum:Global_Sales:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[NA_Sales]' derivation='Sum' name='[sum:NA_Sales:qk]' pivot='key' type='quantitative' />
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_GB' class='hyper' dbname='C:/Users/User/AppData/Local/Temp/TableauTemp/#TableauTemp_0va09dz1qjgb5t1bz07o91hi0wy5.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='08/25/2026 12:55:44 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Rank</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Rank]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Rank</remote-alias>
+              <ordinal>0</ordinal>
+              <family>vgsales.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16598</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[vgsales.csv_A9005DFFD0F8481F9C35A6716D94E259]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Name</remote-alias>
+              <ordinal>1</ordinal>
+              <family>vgsales.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7054</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LUK_RUA' />
+              <object-id>[vgsales.csv_A9005DFFD0F8481F9C35A6716D94E259]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Platform</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Platform]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Platform</remote-alias>
+              <ordinal>2</ordinal>
+              <family>vgsales.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>23</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LUK_RUA' />
+              <object-id>[vgsales.csv_A9005DFFD0F8481F9C35A6716D94E259]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Year</remote-alias>
+              <ordinal>3</ordinal>
+              <family>vgsales.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>53</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[vgsales.csv_A9005DFFD0F8481F9C35A6716D94E259]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Genre</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Genre]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Genre</remote-alias>
+              <ordinal>4</ordinal>
+              <family>vgsales.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LUK_RUA' />
+              <object-id>[vgsales.csv_A9005DFFD0F8481F9C35A6716D94E259]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Publisher</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Publisher]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Publisher</remote-alias>
+              <ordinal>5</ordinal>
+              <family>vgsales.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>444</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LUK_RUA' />
+              <object-id>[vgsales.csv_A9005DFFD0F8481F9C35A6716D94E259]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NA_Sales</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[NA_Sales]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>NA_Sales</remote-alias>
+              <ordinal>6</ordinal>
+              <family>vgsales.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>349</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[vgsales.csv_A9005DFFD0F8481F9C35A6716D94E259]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>EU_Sales</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[EU_Sales]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>EU_Sales</remote-alias>
+              <ordinal>7</ordinal>
+              <family>vgsales.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>246</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[vgsales.csv_A9005DFFD0F8481F9C35A6716D94E259]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>JP_Sales</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[JP_Sales]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>JP_Sales</remote-alias>
+              <ordinal>8</ordinal>
+              <family>vgsales.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>191</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[vgsales.csv_A9005DFFD0F8481F9C35A6716D94E259]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Other_Sales</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Other_Sales]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Other_Sales</remote-alias>
+              <ordinal>9</ordinal>
+              <family>vgsales.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>111</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[vgsales.csv_A9005DFFD0F8481F9C35A6716D94E259]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Global_Sales</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Global_Sales]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Global_Sales</remote-alias>
+              <ordinal>10</ordinal>
+              <family>vgsales.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>487</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[vgsales.csv_A9005DFFD0F8481F9C35A6716D94E259]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0dcy8rq12z5jri16m7qbc04ti2rt].[sum:Global_Sales:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0dcy8rq12z5jri16m7qbc04ti2rt]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0dcy8rq12z5jri16m7qbc04ti2rt].[sum:NA_Sales:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Ukraine&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Rank' />
+        <field-sort-custom-order field='Name' />
+        <field-sort-custom-order field='Platform' />
+        <field-sort-custom-order field='Year' />
+        <field-sort-custom-order field='Genre' />
+        <field-sort-custom-order field='Publisher' />
+        <field-sort-custom-order field='NA_Sales' />
+        <field-sort-custom-order field='EU_Sales' />
+        <field-sort-custom-order field='JP_Sales' />
+        <field-sort-custom-order field='Other_Sales' />
+        <field-sort-custom-order field='Global_Sales' />
+        <field-sort-custom-order field='Calculation_0196575685324800' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field='Year (bin)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <object-graph>
+        <objects>
+          <object caption='vgsales.csv' id='vgsales.csv_A9005DFFD0F8481F9C35A6716D94E259'>
+            <properties context=''>
+              <relation connection='textscan.1s6r1w11cffmmg12cblhh08x88rs' name='vgsales.csv' table='[vgsales#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='uk_UA'>
+                  <column datatype='integer' name='Rank' ordinal='0' />
+                  <column datatype='string' name='Name' ordinal='1' />
+                  <column datatype='string' name='Platform' ordinal='2' />
+                  <column datatype='integer' name='Year' ordinal='3' />
+                  <column datatype='string' name='Genre' ordinal='4' />
+                  <column datatype='string' name='Publisher' ordinal='5' />
+                  <column datatype='real' name='NA_Sales' ordinal='6' />
+                  <column datatype='real' name='EU_Sales' ordinal='7' />
+                  <column datatype='real' name='JP_Sales' ordinal='8' />
+                  <column datatype='real' name='Other_Sales' ordinal='9' />
+                  <column datatype='real' name='Global_Sales' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='Demographics+ (Tableau Joins File)' inline='true' name='federated.119aqco1fk01hn11o10br0cuv7dd' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Tableau Joins File' name='excel-direct.0glkrer0n4tk951exiywi1b2jhcd'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/Data_Analytics/Tableau/Tableau Joins File.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation join='inner' type='join'>
+          <clause type='join'>
+            <expression op='='>
+              <expression op='[Demographics].[EmployeeID]' />
+              <expression op='[JobTitle].[EmployeeID]' />
+            </expression>
+          </clause>
+          <relation connection='excel-direct.0glkrer0n4tk951exiywi1b2jhcd' name='Demographics' table='[Demographics$]' type='table'>
+            <columns gridOrigin='A1:D11:no:A1:D11:0' header='yes' outcome='6'>
+              <column datatype='integer' name='EmployeeID' ordinal='0' />
+              <column datatype='string' name='NameofEmployee' ordinal='1' />
+              <column datatype='integer' name='EmployeeAge' ordinal='2' />
+              <column datatype='string' name='EmployeeGender' ordinal='3' />
+            </columns>
+          </relation>
+          <relation connection='excel-direct.0glkrer0n4tk951exiywi1b2jhcd' name='JobTitle' table='[JobTitle$]' type='table'>
+            <columns gridOrigin='A1:C11:no:A1:C11:0' header='yes' outcome='2'>
+              <column datatype='integer' name='EmployeeID' ordinal='0' />
+              <column datatype='string' name='EmployeeName' ordinal='1' />
+              <column datatype='string' name='JobTitle' ordinal='2' />
+            </columns>
+          </relation>
+        </relation>
+        <cols>
+          <map key='[EmployeeAge]' value='[Demographics].[EmployeeAge]' />
+          <map key='[EmployeeGender]' value='[Demographics].[EmployeeGender]' />
+          <map key='[EmployeeID (JobTitle)]' value='[JobTitle].[EmployeeID]' />
+          <map key='[EmployeeID]' value='[Demographics].[EmployeeID]' />
+          <map key='[EmployeeName]' value='[JobTitle].[EmployeeName]' />
+          <map key='[JobTitle]' value='[JobTitle].[JobTitle]' />
+          <map key='[NameofEmployee]' value='[Demographics].[NameofEmployee]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Demographics]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:D11:no:A1:D11:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[JobTitle]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:C11:no:A1:C11:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EmployeeID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[EmployeeID]</local-name>
+            <parent-name>[Demographics]</parent-name>
+            <remote-alias>EmployeeID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Demographics_982F167CA67E4175BA7201554A08380E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NameofEmployee</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[NameofEmployee]</local-name>
+            <parent-name>[Demographics]</parent-name>
+            <remote-alias>NameofEmployee</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LUK_RUA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Demographics_982F167CA67E4175BA7201554A08380E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EmployeeAge</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[EmployeeAge]</local-name>
+            <parent-name>[Demographics]</parent-name>
+            <remote-alias>EmployeeAge</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Demographics_982F167CA67E4175BA7201554A08380E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EmployeeGender</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[EmployeeGender]</local-name>
+            <parent-name>[Demographics]</parent-name>
+            <remote-alias>EmployeeGender</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LUK_RUA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Demographics_982F167CA67E4175BA7201554A08380E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EmployeeID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[EmployeeID (JobTitle)]</local-name>
+            <parent-name>[JobTitle]</parent-name>
+            <remote-alias>EmployeeID</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Demographics_982F167CA67E4175BA7201554A08380E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EmployeeName</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[EmployeeName]</local-name>
+            <parent-name>[JobTitle]</parent-name>
+            <remote-alias>EmployeeName</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LUK_RUA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Demographics_982F167CA67E4175BA7201554A08380E]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JobTitle</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[JobTitle]</local-name>
+            <parent-name>[JobTitle]</parent-name>
+            <remote-alias>JobTitle</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LUK_RUA_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Demographics_982F167CA67E4175BA7201554A08380E]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[EmployeeID (JobTitle)]' role='dimension' type='ordinal' />
+      <column datatype='integer' name='[EmployeeID]' role='dimension' type='ordinal' />
+      <column caption='Demographics' datatype='table' name='[__tableau_internal_object_id__].[Demographics_982F167CA67E4175BA7201554A08380E]' role='measure' type='quantitative' />
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_GB' class='hyper' dbname='C:/Users/User/AppData/Local/Temp/TableauTemp/#TableauTemp_0w5xuz10yohgqj11hd3vi07ea9vq.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='08/25/2026 01:00:17 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <cols>
+            <map key='[EmployeeAge]' value='[Extract].[EmployeeAge]' />
+            <map key='[EmployeeGender]' value='[Extract].[EmployeeGender]' />
+            <map key='[EmployeeID (JobTitle)]' value='[Extract].[EmployeeID]' />
+            <map key='[EmployeeID]' value='[Extract].[EmployeeID1]' />
+            <map key='[EmployeeName]' value='[Extract].[EmployeeName]' />
+            <map key='[JobTitle]' value='[Extract].[JobTitle]' />
+            <map key='[NameofEmployee]' value='[Extract].[NameofEmployee]' />
+          </cols>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>EmployeeID1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[EmployeeID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>EmployeeID1</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Demographics</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Demographics_982F167CA67E4175BA7201554A08380E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NameofEmployee</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[NameofEmployee]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>NameofEmployee</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Demographics</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LUK_RUA' />
+              <object-id>[Demographics_982F167CA67E4175BA7201554A08380E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>EmployeeAge</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[EmployeeAge]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>EmployeeAge</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Demographics</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Demographics_982F167CA67E4175BA7201554A08380E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>EmployeeGender</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[EmployeeGender]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>EmployeeGender</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Demographics</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LUK_RUA' />
+              <object-id>[Demographics_982F167CA67E4175BA7201554A08380E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>EmployeeID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[EmployeeID (JobTitle)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>EmployeeID</remote-alias>
+              <ordinal>4</ordinal>
+              <family>JobTitle</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Demographics_982F167CA67E4175BA7201554A08380E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>EmployeeName</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[EmployeeName]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>EmployeeName</remote-alias>
+              <ordinal>5</ordinal>
+              <family>JobTitle</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LUK_RUA' />
+              <object-id>[Demographics_982F167CA67E4175BA7201554A08380E]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>JobTitle</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[JobTitle]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>JobTitle</remote-alias>
+              <ordinal>6</ordinal>
+              <family>JobTitle</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LUK_RUA' />
+              <object-id>[Demographics_982F167CA67E4175BA7201554A08380E]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Ukraine&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='Demographics' id='Demographics_982F167CA67E4175BA7201554A08380E'>
+            <properties context=''>
+              <relation join='inner' type='join'>
+                <clause type='join'>
+                  <expression op='='>
+                    <expression op='[Demographics].[EmployeeID]' />
+                    <expression op='[JobTitle].[EmployeeID]' />
+                  </expression>
+                </clause>
+                <relation connection='excel-direct.0glkrer0n4tk951exiywi1b2jhcd' name='Demographics' table='[Demographics$]' type='table'>
+                  <columns gridOrigin='A1:D11:no:A1:D11:0' header='yes' outcome='6'>
+                    <column datatype='integer' name='EmployeeID' ordinal='0' />
+                    <column datatype='string' name='NameofEmployee' ordinal='1' />
+                    <column datatype='integer' name='EmployeeAge' ordinal='2' />
+                    <column datatype='string' name='EmployeeGender' ordinal='3' />
+                  </columns>
+                </relation>
+                <relation connection='excel-direct.0glkrer0n4tk951exiywi1b2jhcd' name='JobTitle' table='[JobTitle$]' type='table'>
+                  <columns gridOrigin='A1:C11:no:A1:C11:0' header='yes' outcome='2'>
+                    <column datatype='integer' name='EmployeeID' ordinal='0' />
+                    <column datatype='string' name='EmployeeName' ordinal='1' />
+                    <column datatype='string' name='JobTitle' ordinal='2' />
+                  </columns>
+                </relation>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 5'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='directory' name='federated.1jbbw4j0r8z0mk1bkjxf40f23gyc' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1jbbw4j0r8z0mk1bkjxf40f23gyc'>
+            <column aggregation='Avg' datatype='real' name='[Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' datatype='real' name='[Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column datatype='string' name='[State/Province]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Latitude]' derivation='Avg' name='[avg:Latitude:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Longitude]' derivation='Avg' name='[avg:Longitude:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[State/Province]' derivation='None' name='[none:State/Province:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1jbbw4j0r8z0mk1bkjxf40f23gyc].[avg:Longitude:qk]' field-type='quantitative' max='24017723.128505327' min='-20307986.800156757' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1jbbw4j0r8z0mk1bkjxf40f23gyc].[avg:Latitude:qk]' field-type='quantitative' max='15792144.976762194' min='-6256469.1208293857' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Heatmap' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <lod column='[federated.1jbbw4j0r8z0mk1bkjxf40f23gyc].[none:State/Province:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.22988949716091156' />
+                <format attr='density-kernel-size' value='1.3953038454055786' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1jbbw4j0r8z0mk1bkjxf40f23gyc].[avg:Latitude:qk]</rows>
+        <cols>[federated.1jbbw4j0r8z0mk1bkjxf40f23gyc].[avg:Longitude:qk]</cols>
+      </table>
+      <simple-id uuid='{956E5A7A-17E8-48A7-8C6B-A0F79B71EF77}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='72'>
+    <window class='worksheet' maximized='true' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1jbbw4j0r8z0mk1bkjxf40f23gyc].[none:Postcode:nk]</field>
+            <field>[federated.1jbbw4j0r8z0mk1bkjxf40f23gyc].[none:State/Province:nk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{37222705-DC28-43F3-A9FA-5683A1A9777C}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 5' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
